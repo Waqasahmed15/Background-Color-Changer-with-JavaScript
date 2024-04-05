@@ -3,3 +3,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  transition: 0.3s cubic-bezier(0.215, 061, 0.355, 1);
+}
+h2 {
+  color: #fff;
+  font-weight: 200;
+}
+
+button {
+  padding: 15px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: 0.8s cubic-bezier(0.175, 0855 0.32, 1.275);
+}
+
+button:hover {
+  background: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+button:active {
+  padding: 5px;
+}
